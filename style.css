@@ -34,6 +34,23 @@ text-align: center;
     border-radius: 4px;
     border: 1px solid #ccc;
 }
+.weather-input .seperator{
+    height: 1px;
+    width: 100%;
+    margin: 25px 0;
+    background: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weather-input .seperator::before{
+    content: "or";
+    color: #6c757D;
+    font-size: 1.18rem;
+    padding: 0 15px;
+    margin-top: -4px;
+    background: #e3f2fd;
+}
 .weather-input button{
     width: 100%;
     padding: 10px 0;
@@ -46,8 +63,32 @@ text-align: center;
     background: #5372f0;
 }
 .weather-input .location-bttn{
-    background-color: #6c7570;
+    background: #6c7570;
 }
 .weather-data{
     width: 100%;
+}
+.current-weather{
+    color: #fff;
+    display: flex;
+    border-radius: 5px;
+    padding: 20px 70px 20px 20px;
+    background: #5372f0;
+    justify-content: space-between;
+}
+.current-weather .location{
+    font-size: 1.7rem;
+}
+.weather-data .h4{
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 200;
+}
+.current-weather .icon{
+    max-width: 120px;
+    margin-top: -15px;
+}
+.current-weather .icon .forcast{
+    margin-top: -10px;
+    text-transform: capitalize;
 }
