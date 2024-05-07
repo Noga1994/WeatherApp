@@ -34,7 +34,7 @@ text-align: center;
     border-radius: 4px;
     border: 1px solid #ccc;
 }
-.weather-input .seperator{
+.weather-input .separator{
     height: 1px;
     width: 100%;
     margin: 25px 0;
@@ -43,7 +43,7 @@ text-align: center;
     align-items: center;
     justify-content: center;
 }
-.weather-input .seperator::before{
+.weather-input .separator::before{
     content: "or";
     color: #6c757D;
     font-size: 1.18rem;
@@ -62,7 +62,7 @@ text-align: center;
     border-radius: 4px;
     background: #5372f0;
 }
-.weather-input .location-bttn{
+.weather-input .location-btn{
     background: #6c7570;
 }
 .weather-data{
@@ -88,11 +88,11 @@ text-align: center;
     max-width: 120px;
     margin-top: -15px;
 }
-.current-weather .icon .forcast{
+.current-weather .icon .forecast{
     margin-top: -10px;
     text-transform: capitalize;
 }
-.days-forcast h2{
+.days-forecast h2{
     font-size: 1.5rem;
     margin: 20px 0;
 }
