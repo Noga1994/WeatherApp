@@ -7,5 +7,5 @@ const getCityCoordinates = () => {
     //const GEOCODING_API_URL = 
 
     console.log
-
+}
 searchButton.addEventListener("click", getCityCoordinates);
