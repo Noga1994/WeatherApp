@@ -112,6 +112,14 @@ font-size: 1.7rem;
     max-width: 70px;
     margin: 5px 0 -12px 0;
 }
+#currentIcon{
+    width: 100px;
+    height: 100px;
+}
+#currentCondition{
+    max-width: 100px;
+}
+
 
 @media (max-width: 1440px){
     .weather-data .current-weather{
